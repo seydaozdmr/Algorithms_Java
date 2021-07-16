@@ -1,4 +1,4 @@
-package algorithms;
+package src;
 
 public class MyHistogram {
 

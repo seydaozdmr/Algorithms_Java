@@ -1,4 +1,4 @@
-package algorithms;
+package src;
 
 public class Histogram {
 	public static int [] his(int a[],int m){

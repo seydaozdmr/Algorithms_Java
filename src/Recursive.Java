@@ -1,6 +1,6 @@
-package algorithms;
+package src;
 
-public class Recursive_1 {
+public class Recursive {
 	public static String rx_1(int n) {
 		//if kontrolu return'dan önce olmalıdır. Aksi takdirde rx_1(-3) gibi bir yola girebiliriz.
 		if(n<=0) return " ";
