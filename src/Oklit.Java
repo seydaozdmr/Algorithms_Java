@@ -1,6 +1,6 @@
 package src;
 
-public class ebob {
+public class Oklit {
 
 public static int ebb(int p,int q) {
 		System.out.println("q: "+q+" p: "+p);

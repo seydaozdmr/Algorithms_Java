@@ -1,6 +1,6 @@
 package src;
 
-public class minArrayIndex {
+public class MinIndex {
 
 	public static void main(String[] args) {
 		int[]dizi= {18, 6, 66, 44, 9, 22, 14};

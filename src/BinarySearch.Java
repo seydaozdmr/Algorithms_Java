@@ -2,7 +2,7 @@ package src;
 
 import java.util.Arrays;
 
-public class binarysearch_rmvdup {
+public class BinarySearch {
 	//Gönderilen dizide tekrar eden elemanları temizleyip yeni bir dizi olarak gönderen algoritma
 	public static int [] removeDuplicates(int[]whitelist) {
 		int[] newWhiteList=new int[whitelist.length];
