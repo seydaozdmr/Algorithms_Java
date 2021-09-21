@@ -3,7 +3,7 @@ package src;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Histogram {
+class Histogram {
 //	public static void main(String[] args) {
 //		int n=Integer.parseInt(args[0]);
 //		System.out.println(n);

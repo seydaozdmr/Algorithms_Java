@@ -1,6 +1,6 @@
 package src;
 
-public class MyHistogram {
+class MyHistogram {
 
 //	public static void main(String[] args) {
 //		int aralik=7;

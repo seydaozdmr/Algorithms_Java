@@ -2,7 +2,7 @@ package src;
 
 import java.util.Arrays;
 
-public class BinarySearch {
+class BinarySearch {
 	//Gönderilen dizide tekrar eden elemanları temizleyip yeni bir dizi olarak gönderen algoritma
 	public static int [] removeDuplicates(int[]whitelist) {
 		int[] newWhiteList=new int[whitelist.length];
@@ -72,27 +72,27 @@ public class BinarySearch {
 			return -1;
 		}
 	}
-	public static void main(String[] args) {
-		int[] arr = {1, 2, 3, 4, 5, 6, 7};
-		int[] numbers = {1, 4 , 5, 9, 10};
-		Arrays.sort(arr);
-		//Olmayanlar:
-		binarySearch(arr, numbers, '+');
-		System.out.println();
-		//Olanlar
-		binarySearch(arr, numbers, '-');
-		System.out.println();
-		
-		
-		int[] whitelist = {1, 2, 3, 4, 5, 6, 6, 7, 7, 8,11,12,13,14};
-		int[] keys = {1, 4 , 5, 9, 10,13};
-		Arrays.sort(whitelist);
-		int[] yenilist=removeDuplicates(whitelist);
-		binarySearch(yenilist,keys,'+');
-		System.out.println();
-		binarySearch(yenilist,keys,'-');
-		
-
-	}
+//	public static void main(String[] args) {
+//		int[] arr = {1, 2, 3, 4, 5, 6, 7};
+//		int[] numbers = {1, 4 , 5, 9, 10};
+//		Arrays.sort(arr);
+//		//Olmayanlar:
+//		binarySearch(arr, numbers, '+');
+//		System.out.println();
+//		//Olanlar
+//		binarySearch(arr, numbers, '-');
+//		System.out.println();
+//
+//
+//		int[] whitelist = {1, 2, 3, 4, 5, 6, 6, 7, 7, 8,11,12,13,14};
+//		int[] keys = {1, 4 , 5, 9, 10,13};
+//		Arrays.sort(whitelist);
+//		int[] yenilist=removeDuplicates(whitelist);
+//		binarySearch(yenilist,keys,'+');
+//		System.out.println();
+//		binarySearch(yenilist,keys,'-');
+//
+//
+//	}
 
 }

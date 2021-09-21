@@ -1,6 +1,6 @@
 package src;
 
-public class PointDistance {
+class PointDistance {
 
 //	public static void main(String[] args) {
 //		int n = Integer.parseInt(args[0]); // 10
