@@ -43,23 +43,28 @@ public class PrimeChecker {
     }
 
 class Prime {
-    public void checkPrime(int... arr) {
+    public void checkPrime(int ... arr){
         int[] asal=new int[arr.length];
+        int count=0;
         for(int i=0;i<arr.length;i++){
-
-            int count=0;
+            boolean flag=true;
+            if(arr[i]<2){
+                flag=false;
+            }
             for(int j=2;j<=arr[i];j++){
                 if(arr[i]%j==0 && arr[i]!=j){
-                    continue;
+                    flag=false;
+                    break;
                 }
-                asal[count++]=j;
+            }
+            if(flag){
+                asal[count++]=arr[i];
             }
         }
         for(int k=0;k<asal.length;k++){
             if(asal[k]!=0){
                 System.out.print(asal[k]+" ");
             }
-
         }
         System.out.println();
     }
