@@ -1,4 +1,4 @@
-package src.datastructures;
+package src.datastructures.stack;
 
 public interface Stackable<T> {
     void push(T t);

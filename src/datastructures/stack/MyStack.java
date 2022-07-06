@@ -1,4 +1,4 @@
-package src.datastructures;
+package src.datastructures.stack;
 
 import java.util.Iterator;
 
