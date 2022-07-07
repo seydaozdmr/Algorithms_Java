@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.function.Consumer;
 
 public class StackWithNodesImpl<T> implements StackWithNodes<T>,Iterable<T>{
+
+    //LinkedList
     private Node head;
     private int n=0;
 
