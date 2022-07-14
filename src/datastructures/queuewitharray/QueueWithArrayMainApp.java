@@ -6,6 +6,25 @@ public class QueueWithArrayMainApp {
         test.enqueue("Ankara");
         test.enqueue("İzmir");
         test.enqueue("İstanbul");
+        test.enqueue("Ankara");
+        test.enqueue("İzmir");
+        System.out.println(test.dequeue());
+        System.out.println(test.dequeue());
+        System.out.println(test.dequeue());
+        System.out.println(test.dequeue());
+        System.out.println(test.dequeue());
+        test.enqueue("İstanbul");
+        test.enqueue("Ankara");
+        test.enqueue("İzmir");
+        test.enqueue("İstanbul");
+        test.enqueue("İstanbul");
+        test.enqueue("Ankara");
+        test.enqueue("İzmir");
+        test.enqueue("İstanbul");
+        test.enqueue("İstanbul");
+        test.enqueue("Ankara");
+        test.enqueue("İzmir");
+        test.enqueue("İstanbul");
         System.out.println(test.size());
 
         for(String e:test){

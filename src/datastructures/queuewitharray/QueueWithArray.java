@@ -20,6 +20,10 @@ public class QueueWithArray<T> implements Iterable<T>{
         if(n==arr.length){
             resize(arr.length*2);
         }
+    //Bütün elemanları sildikten sonra arr.length 1 de ve last da 1 de kalıyor dolaysıyla last'ı elemanı eklemeden önce 0'a çekmek gerekiyor.
+        if(last==arr.length){
+            last=0;
+        }
 
         arr[last++]=elem;
         n++;
