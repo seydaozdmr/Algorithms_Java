@@ -2,6 +2,7 @@ package src.unionfind;
 
 public class UF {
     private int[] id;
+    //kaç adet bağ olduğunu tutan değişken
     private int count;
 
     public UF(int N){
@@ -31,7 +32,8 @@ public class UF {
         if(pId==qId)
             return;
         for(int i=0;i<id.length;i++){
-            if(id[i]==pId) id[i]=qId;
+            if(id[i]==pId)
+                id[i]=qId;
         }
         count--;
     }
